@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: stepdefinitions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 40.34 s <<< FAILURE! -- in stepdefinitions.TestRunner
+Login Feature.Login Failure Scenario using test data as parameter -- Time elapsed: 35.92 s <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[]he email address or ...> but was:<[T]he email address or ...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepdefinitions.LoginStepDefinition.i_should_be_able_to_see_the_error_message(LoginStepDefinition.java:76)
+	at ✽.I should be able to see the error message "he email address or password you have entered is invalid"(file:///C:/Users/Rosh-Hany/eclipse-workspace/CucumberProject/src/test/java/features/Login.feature:20)
+
